@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto</title>
+    <link rel="stylesheet" href="css/menu.css">
+
+</head>
+
+<body>
+    <header>
+
+        <h1>
+            <a class="inicio" href="/">
+                <img class="logo" src="media/img/logo.jpg" alt="logo">
+                Skins CS
+            </a>
+        </h1>
+    </header>
+    <main>
+        <section>
+            <div>
+                <input class="buscador" placeholder="Search..." type="text" data-headlessui-state="" value=""
+                    aria-expanded="false" id="search" name="search" />
+            </div>
+        </section>
+
+        <section>
+            <h3>CATEGORIAS</h3>
+        </section>
+
+        <section class="categorias">
+
+            <div>Pistolas
+                <div class="filas">
+                    <div class="caja">
+                        <a href="pages/pistolas/usp/usp.html">
+                            <p>USP-S</p>
+                            <img class="armas"
+                                src="data:image/webp;base64,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"
+                                alt="USP-S">
+                        </a>
+                    </div>
+                    <div class="caja">
+                        <a href="pages/pistolas/glock/glock.html">
+                            <p> Glock-18</p>
+                            <img class="armas"
+                                src="data:image/webp;base64,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"
+                                alt="Glock-18">
+                        </a>
+                    </div>
+                    <div class="caja">
+                        <a href="pages/pistolas/dk/dk.html">
+                            <p>Desert Eagle</p>
+                            <img class="armas" src="media/img/pistolas/dk.png" alt="dk">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+            <hr>
+            <div class="smg">
+                SMGs
+                <div class="filas">
+                    <div class="caja">
+                        <a href="">
+                            <p>MP9</p>
+                            <img class="armas" src="media/img/smg/mp9.webp" alt="mp9">
+                        </a>
+                    </div>
+                    <div class="caja">
+                        <a href="">
+                            <p>MAC-10</p>
+                            <img class="armas" src="media/img/smg/mac-10.png" alt="mac-10">
+                        </a>
+                    </div>
+                    <div class="caja">
+                        <a href="">
+                            <p>P90</p>
+                            <img class="armas" src="media/img/smg/p90.webp" alt="p90">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <hr>
+            <div class="pesadas">
+                Pesadas
+                <div class="filas">
+                    <div class="caja">
+                        <a href="">
+                            <p>MAG-7</p>
+                            <img class="armas" src="media/img/pesadas/mag-7.png" alt="mag-7">
+                        </a>
+                    </div>
+                    <div class="caja">
+                        <a href="">
+                            <p>XM1014</p>
+                            <img class="armas" src="media/img/pesadas/xm1014.png" alt="xm1014">
+                        </a>
+                    </div>
+                    <div class="caja">
+                        <a href="">
+                            <p>Negev</p>
+                            <img class="armas" src="media/img/pesadas/negev.webp" alt="negev">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="rifles">
+                Rifles
+                <div class="filas">
+                    <div class="caja">
+                        <a href="">
+                            <p> AK-47</p>
+                            <img class="armas" src="media/img/rifles/ak-47.png" alt="ak-47">
+
+                        </a>
+                    </div>
+                    <div class="caja">
+                        <a href="" alt>
+                            <p> M4A1-S</p>
+                            <img class="armas" src="media/img/rifles/m4-a1 s.png" alt="m4-a1s">
+
+                        </a>
+                    </div>
+                    <div class="caja">
+                        <a href="">
+                            <p> AWP</p>
+                            <img class="armas" src="media/img/rifles/awp.png" alt="awp">
+                        </a>
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    Cuchillos
+                    <div class="filas">
+                        <div class="caja">
+                            <a href="">
+                                <p>Bayonet</p>
+                                <img class="armas" src="media/img/cuchillos/bayoneta.png" alt="bayoneta">
+                            </a>
+                        </div>
+                        <div class="caja">
+                            <a href="">
+                                <p>Butterfly</p>
+                                <img class="armas" src="media/img/cuchillos/butterfly.png" alt="butterfly">
+                            </a>
+                        </div>
+                        <div class="caja">
+                            <a href="">
+                                <p>Karambit</p>
+                                <img class="armas" src="media/img/cuchillos/karambit.png" alt="karambit">
+                            </a>
+                        </div>
+
+                    </div>
+                    <div>
+                        <hr>
+                        <div class="Guantes">
+                            Guantes
+                            <div class="filas">
+
+                                <div class="caja">
+                                    <a href="">
+                                        <p>Hand Wraps</p>
+                                        <img class="armas" src="media/img/guantes/handwraps.png" alt="handwraps">
+                                    </a>
+                                </div>
+                                <div class="caja">
+                                    <a href="">
+                                        <p>Specialist</p>
+                                        <img class="armas" src="media/img/guantes/specialist.png" alt="specialist">
+                                    </a>
+                                </div>
+                                <div class="caja">
+                                    <a href="">
+                                        <p>Sport Gloves</p>
+                                        <img class="armas" src="media/img/guantes/sportgloves.png" alt="sportgloves">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer-container">
+            <h1>
+                <img class="logo" src="media/img/logo.jpg" alt="logo">
+                Skins CS
+            </h1>
+            <hr>
+        </div>
+        <div class="footer-container">
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 20 20">
+                    <path fill="currentColor"
+                        d="M10 .4C4.698.4.4 4.698.4 10s4.298 9.6 9.6 9.6s9.6-4.298 9.6-9.6S15.302.4 10 .4M7.65 13.979H5.706V7.723H7.65zm-.984-7.024c-.614 0-1.011-.435-1.011-.973c0-.549.409-.971 1.036-.971s1.011.422 1.023.971c0 .538-.396.973-1.048.973m8.084 7.024h-1.944v-3.467c0-.807-.282-1.355-.985-1.355c-.537 0-.856.371-.997.728c-.052.127-.065.307-.065.486v3.607H8.814v-4.26c0-.781-.025-1.434-.051-1.996h1.689l.089.869h.039c.256-.408.883-1.01 1.932-1.01c1.279 0 2.238.857 2.238 2.699z">
+                    </path>
+                </svg>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

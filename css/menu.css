@@ -1,0 +1,109 @@
+body {
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  --tw-text-opacity: 1;
+  color: rgb(244 242 242 / var(--tw-text-opacity));
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;  
+  flex-wrap: wrap;
+}
+header {
+  background-color: #1E1E1E;
+  border: 2px solid  #1E1E1E;
+  width: 100%;
+  padding-left: 5%;
+  padding-top: 10vh;
+}
+.inicio{
+  display: flex;
+  align-items: flex-start;
+}
+.logo{
+  width: 10%;
+}
+.titulo{
+  color: #1E1E1E;
+}
+
+.buscador{
+  height: 30px;
+  border-radius: 10px;
+  border: aliceblue;
+  border-style: ridge;
+  background-color: #1E1E1E;
+  color: aliceblue;
+}
+h3{
+  text-align: center;
+}
+
+main{
+  width: 100%;
+  padding-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 20vh;
+  --tw-bg-opacity: 1;
+  background-color: rgb(18 18 18 / var(--tw-bg-opacity));
+  border: 2px solid rgb(18 18 18 / var(--tw-bg-opacity));
+}
+.categorias{
+    border: 2px solid ;
+    border-radius: 10px;
+    width: 90%;
+    margin: 30px;
+    padding: 15px;
+    --tw-text-opacity: 1;
+
+}
+.filas{
+  display: flex;
+  justify-content: space-around;
+}
+.caja{
+  
+  background-color: #1E1E1E;
+  margin: 10px;
+  border-radius: 25px;
+  border-style: outset;
+  border-color: #1E1E1E;
+
+}
+p{
+  color: aliceblue;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: italic;
+  font-size: 10px;
+  text-align: center;
+}
+a{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: aliceblue;
+}
+.armas{
+  width: 65%;
+}
+
+hr{
+  width: 90%;
+  margin: 20px;
+}
+footer{
+  display: block;
+  unicode-bidi: isolate;
+  background-color: #1E1E1E;
+  border: 2px solid  #1E1E1E;
+  width: 100%;
+  padding-left: 5%;
+  padding-top: 4%;
+  padding-bottom: 5%;
+  text-align: left;
+  margin: 0;
+}

@@ -1,0 +1,33 @@
+.blaze{
+    width: 50%;
+    height: 50%;
+}
+.logo-2{
+    display: flex;
+    justify-content: right;
+    justify-content: space-around;
+    width: 100%;
+}
+.nombre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-weight: 700 ;
+    font-size: 30px;
+}
+.color-dk{
+    border-radius: 2px;
+    border-color: blueviolet;
+}
+.tabla{
+    padding-top: 5%;
+}
+.border-tabla{
+    border-color: aqua;
+}
+.video{
+    padding-top: 8%;
+}
