@@ -1,0 +1,102 @@
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.armas-2{
+    width: 40%;
+    height: 40%;
+}
+.logo-2{
+    display: flex;
+    justify-content: right;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.nombre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h2{
+    font-weight: 700 ;
+    font-size: 50px;
+}
+.wttjungle{
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.tabla{
+    padding-top: 5%;
+
+}
+.color-aqua{
+    border-color: aqua;
+    width: 120%;
+    height: 5px;
+    background-color: aqua;
+}
+.border-tabla-aqua{
+    border-color: aqua;
+    width: 50%;
+    height: 25vh;
+
+}
+.color-rose{
+    border-color: violet;
+    width: 120%;  
+    height: 5px;
+    background-color: violet;
+}
+.border-tabla-rose{
+    border-color: violet;
+    width: 50%;
+    height: 25vh;
+}
+
+.color-violet{
+    width: 120%;
+    border-color: blueviolet;
+    height: 5px;
+    background-color: blueviolet;
+}
+.border-tabla-violet{
+    border-color: blueviolet;
+    width: 50%;
+    height: 25vh;
+}
+.color-red{
+    width: 120%;
+    height: 5px;
+    background-color: red;
+    border-color: red;
+}
+.border-tabla-red{
+    border-color: red;
+    width: 50%;
+    height: 25vh;
+}
+.color-yellow{
+    width: 120%;
+    height: 5px;
+    background-color: yellow;
+    border-color: yellow;
+}
+.border-tabla-yellow{
+    border-color: yellow;
+    width: 50%;
+    height: 25vh;
+}
+
+.logos-market{
+    width: 15px;
+}
+.video{
+    padding-top: 8%;
+    width: 70%;
+    height: 76vh;
+
+}
