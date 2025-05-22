@@ -1,6 +1,6 @@
 body {
   width: 100%;
-  height: 100vh;
+  height: 100vw;
   padding: 0;
   margin: 0;
   --tw-text-opacity: 1;
@@ -16,14 +16,15 @@ header {
   border: 2px solid  #1E1E1E;
   width: 100%;
   padding-left: 5%;
-  padding-top: 7vh;
+  padding-top: 7vw;
 }
 .inicio{
   display: flex;
   align-items: flex-start;
 }
 .logo{
-  width: 7%;
+  width: 15%;
+
 }
 .titulo{
   color: #1E1E1E;
@@ -45,7 +46,7 @@ main{
   width: 100%;
   padding-left: 5%;
   padding-top: 2%;
-  padding-bottom: 20vh;
+  padding-bottom: 20vw;
   --tw-bg-opacity: 1;
   background-color: rgb(18 18 18 / var(--tw-bg-opacity));
   border: 2px solid rgb(18 18 18 / var(--tw-bg-opacity));
@@ -63,7 +64,7 @@ main{
 }
 .filas{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 .caja{
