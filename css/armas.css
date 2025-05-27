@@ -1,7 +1,7 @@
 
 .armas-2{
-    width: 50%;
-    height: 50%;    
+    width: 40%;
+    height: 40%;    
 }
 
 .logo-2{  
@@ -22,7 +22,7 @@
 }
 h2{
     font-weight: 700 ;
-    font-size: 50px;
+    font-size: 40px;
 
 }
 .wttjungle{
@@ -42,7 +42,7 @@ h2{
 }
 .border-tabla-aqua{
     border-color: aqua;
-    width: 50%;
+    width: 40%;
     height: 25vh;
 
 }
@@ -54,7 +54,7 @@ h2{
 }
 .border-tabla-rose{
     border-color: violet;
-    width: 50%;
+    width: 40%;
     height: 25vh;
     align-items: center;
 }
@@ -67,7 +67,7 @@ h2{
 }
 .border-tabla-violet{
     border-color: blueviolet;
-    width: 50%;
+    width: 40%;
     height: 20vw;
 }
 .color-red{
@@ -78,7 +78,7 @@ h2{
 }
 .border-tabla-red{
     border-color: red;
-    width: 50%;
+    width: 40%;
     height: 25vh;
 }
 .color-yellow{
@@ -89,7 +89,7 @@ h2{
 }
 .border-tabla-yellow{
     border-color: yellow;
-    width: 50%;
+    width: 40%;
     height: 25vh;
 }
 
@@ -103,6 +103,6 @@ h2{
     height: 40vw;
 }
 .colleccion{
-    width: 50%;
+    width: 40%;
     padding-top: 15%;
 }
