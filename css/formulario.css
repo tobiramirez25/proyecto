@@ -17,8 +17,7 @@ header {
   border: 2px solid  #1E1E1E;
   width: 100%;
   padding-left: 5%;
-  padding-top: 4vw;  
-  
+  padding-top: 4vw;
 }
 .inicio{
   display: flex;
@@ -46,7 +45,10 @@ header {
   background-color: #1E1E1E;
 }
 h1{
-  display: flex;
+    display: flex;
+}
+h2{
+    padding-left: 2%;
 }
 h3{
   text-align: center;
@@ -55,63 +57,13 @@ h3{
 main{
   width: 100%;
   padding-left: 5%;
-  padding-top: 2%;
-  padding-bottom: 10vw;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
   --tw-bg-opacity: 1;
   background-color: rgb(18 18 18 / var(--tw-bg-opacity));
   border: 2px solid rgb(18 18 18 / var(--tw-bg-opacity));
 
-
 }
-.categorias{
-    border: 2px solid ;
-    border-radius: 10px;
-    width: 90%;
-    padding: 2%;
-    --tw-text-opacity: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center ;
-
-}
-.filas{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  justify-content: center;
-  
-}
-.caja{
-  width: 25%;
-  background-color: #1E1E1E;
-  margin: 2%;
-  border-radius: 25px;
-  border-style: outset;
-  border-color: #1E1E1E;
-  display: flex;
-  color: #1E1E1E;
-}
-
-.caja:hover{
-  width: 25%;
-  background-color: grey;
-  margin: 2%;
-  border-radius: 25px;
-  border-style: outset;
-  border-color: grey;
-  display: flex;
-  cursor: pointer;
-}
-
-p{
-  color: #c3c3c3   ;
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-style: italic;
-  font-size: 15px;
-  text-align: center; 
-}
-
 a{
   display: flex;
   flex-direction: column;
@@ -119,21 +71,47 @@ a{
   text-decoration: none;
   color: aliceblue;
 }
-.armas{
-  width: 65%;
+
+
+p{
+  color: aliceblue;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: italic;
+  font-size: 15px;
+  text-align: center; 
 }
 
-hr{
-  width: 90%;
-  margin: 2%;
+.form-section{
+    background-color: #1E1E1E;
+    border: 2px #1E1E1E solid;
+
+    width: 70%;
+    border-radius: 10px;
+    padding-bottom: 3%;
 }
+.formu{
+    width: 35%;
+    margin: 2%;
+    font-size: large;    
+    border-radius: 10px;    
+}
+.btn-item{
+    background-color: aliceblue;
+    color: green;
+}
+.btn-item:hover{
+    background-color: green;
+    color: aliceblue;
+    cursor: pointer;
+}
+
 footer{
-
   background-color: #1E1E1E;
   border: 2px solid  #1E1E1E;
   width: 100%;
   padding-top: 4%;
-  padding-bottom: 5%;
+  padding-bottom: 9%;
   margin: 0;
   padding-right: 5%;
   display: flex;
