@@ -2,7 +2,7 @@ Este proyecto es una página web básica desarrollada como parte de un curso de 
 
 Este sitio web "Skins CS" es una plataforma en línea diseñada para facilitar la compra y venta de skins de Counter-Strike 2 (CS2). Su objetivo principal es ayudar a los usuarios a encontrar rápidamente las skins que buscan y comparar precios entre 3 diferentes mercados más importantes (Steam, DMarket y CS Float) para obtener las mejores ofertas.
 
-Características principales:  (Por ahora, solo funcionan con las armas de pistolas, rifles y cuchillos. )
+Características principales:  (Por ahora, solo funcionan con las armas de pistolas, rifles y cuchillos. En precio USD)
 
 Búsqueda rápida de skins: Permite localizar en segundos cualquier skin de CS2, proporcionando información detallada, precios y vistas previas en un solo lugar. 
 
