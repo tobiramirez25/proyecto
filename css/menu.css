@@ -13,7 +13,7 @@ body {
 
 }
 .logoo{
-  width: 40%;
+  width: 20%;
 }
 header {
   background-color: #1E1E1E;
@@ -21,18 +21,12 @@ header {
   width: 100%;
   padding-left: 5%;
   padding-top: 4vw;  
-  
 }
-.header-barra{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
+
 .inicio{
   display: flex;
-  align-items: flex-start;
   padding-left: 5%;
+  align-items: flex-start;
   width: 50%;
   height: 50%;
 }
@@ -49,6 +43,7 @@ header {
   padding-top: 4%;
   padding-bottom: 2%;
 }
+
 .texto{
   width: 30%;
 }
