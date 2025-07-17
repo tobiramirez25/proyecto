@@ -12,6 +12,9 @@ body {
   flex-direction: column;
 
 }
+.logoo{
+  width: 40%;
+}
 header {
   background-color: #1E1E1E;
   border: 2px solid  #1E1E1E;
@@ -20,31 +23,46 @@ header {
   padding-top: 4vw;  
   
 }
+.header-barra{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
 .inicio{
   display: flex;
   align-items: flex-start;
   padding-left: 5%;
-
+  width: 50%;
+  height: 50%;
 }
 .logo{
-  width: 15%;
+  width: 40%;
   background-color: #1E1E1E;
 }
 .titulo{
   color: #1E1E1E;
 }
+
 .barra{
-  padding-bottom: 5%;
+  width: 30%;
+  padding-top: 4%;
+  padding-bottom: 2%;
+}
+.texto{
+  width: 30%;
 }
 
 .buscador{
-  width: 20%;
-  height: 30px;
+  width: 70%;
+  height: 25px;
   border-radius: 10px;
   border: white;
   border-style: ridge;
   background-color: #1E1E1E;
+  color: #c3c3c3;
 }
+
 h1{
   display: flex;
 }
@@ -55,7 +73,6 @@ h3{
 main{
   width: 100%;
   padding-left: 5%;
-  padding-top: 2%;
   padding-bottom: 10vw;
   --tw-bg-opacity: 1;
   background-color: rgb(18 18 18 / var(--tw-bg-opacity));

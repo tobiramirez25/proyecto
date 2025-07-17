@@ -131,6 +131,10 @@ footer{
   padding-left: 5%;
   gap: 20px;
 }
+.error{
+  padding-left: 2%;
+
+}
 
 .redes{
   width: 10%;
